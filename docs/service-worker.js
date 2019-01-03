@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pwa-tetris/precache-manifest.4f943d47e1c9d31aba7edc98cc50a8b9.js"
+  "/pwa-tetris/precache-manifest.d5fb378a3ff1483489ca6b74c6e82466.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "pwa-tetris"});
