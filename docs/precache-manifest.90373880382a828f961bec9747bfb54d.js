@@ -20,19 +20,15 @@ self.__precacheManifest = [
     "url": "/pwa-tetris/js/chunk-vendors.87522a09.js"
   },
   {
-    "revision": "7661edd9d30c8bc9d3ef",
-    "url": "/pwa-tetris/js/app.fd24a7bc.js"
+    "revision": "24790f08032dc7108f5f",
+    "url": "/pwa-tetris/js/app.80522d30.js"
   },
   {
-    "revision": "dfe1bef412756f692132c95734d15f5b",
+    "revision": "c746ed03312babacd1fe355d90d2c329",
     "url": "/pwa-tetris/index.html"
   },
   {
-    "revision": "7661edd9d30c8bc9d3ef",
+    "revision": "24790f08032dc7108f5f",
     "url": "/pwa-tetris/css/app.4fcb7c19.css"
-  },
-  {
-    "revision": "aece910d007362bfc71cb4e0ee0ffbb7",
-    "url": "/pwa-tetris/.index.html.swp"
   }
 ];
