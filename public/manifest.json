@@ -1,6 +1,6 @@
 {
-  "name": "pwa-tetris",
-  "short_name": "pwa-tetris",
+  "name": "it",
+  "short_name": "it",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
