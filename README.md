@@ -1,5 +1,7 @@
 # pwa-tetris
 
+Essentially a PWA version of http://binaryify.github.io/vue-tetris/
+
 ## Project setup
 ```
 yarn install
