@@ -2,6 +2,10 @@
 
 Essentially a PWA version of http://binaryify.github.io/vue-tetris/
 
+## Next Steps
+
+- Leaderboard
+
 ## Project setup
 ```
 yarn install
