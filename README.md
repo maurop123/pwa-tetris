@@ -1,6 +1,6 @@
 # pwa-tetris
 
-Essentially a PWA version of http://binaryify.github.io/vue-tetris/
+Essentially a PWA version of Tetris forked from [http://binaryify.github.io/vue-tetris/](https://github.com/Binaryify/vue-tetris)
 
 ## Next Steps
 
