@@ -13,6 +13,14 @@ import { mapState } from 'vuex'
 import { transform, lastRecord, speeds, i18n, lan } from './unit/const'
 import { visibilityChangeEvent, isFocus } from './unit/'
 import states from './control/states'
+
+/* Firebase coding */
+import { db } from './vuex/db.js'
+// console.log('FB', FB)
+// const db = FB.database()
+console.log('db', db)
+db.child('leaderboard').set(true)
+
 export default {
   mounted() {
     this.render()
@@ -26,6 +34,10 @@ export default {
       filling: ''
     }
   },
+  /* Firebase coding */
+  // firestore: {
+  //   leaderboard: db.collection('test'),
+  // },
   components: {
     Decorate,
     Guide,
