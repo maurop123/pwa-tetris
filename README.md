@@ -5,6 +5,8 @@ Essentially a PWA version of Tetris forked from [http://binaryify.github.io/vue-
 ## Next Steps
 
 - Leaderboard
+  - only one entry per user
+  - firebase enabled
 
 ## Project setup
 ```
