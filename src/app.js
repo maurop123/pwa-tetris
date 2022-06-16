@@ -15,11 +15,9 @@ import { visibilityChangeEvent, isFocus } from './unit/'
 import states from './control/states'
 
 /* Firebase coding */
-import { db } from './vuex/db.js'
-// console.log('FB', FB)
-// const db = FB.database()
+import db from './vuex/db.js'
 console.log('db', db)
-db.child('leaderboard').set(true)
+db.get('leaderboard').subscribe(x => console.log(x))
 
 export default {
   mounted() {
