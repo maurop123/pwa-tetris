@@ -8,6 +8,13 @@ Jane McGonigal, author of _SuperBetter: A Revolutionary Approach to Getting Stro
 
 Not that a game like Tetris needs any justification to make, or in this case improve. I just have found that getting to use Tetris in this way has helped me tremendously on my path towards greater mental health, and I wanted to make this game of Tetris (which is made with Vue which I love <3) more accessible by making it playable offline as a Progressive Web App!
 
+## Dev Log
+
+Setup firebase via vue-commons
+Next Steps:
+- Create Login/Signup Modal
+- Or skip and just ask for username at end like Galaga does
+
 ## Next Steps
 
 - Leaderboard

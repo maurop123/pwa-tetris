@@ -10,6 +10,23 @@ import {
 const { fromJS, List } = require('immutable')
 import { music } from '../unit/music'
 
+/* Firebase coding */
+import db from '../vuex/db.js'
+
+function firebaseHighScore() {
+  db.get('leaderboard').subscribe(x => console.log(x))
+}
+
+function checkIfOnline() {
+  // if NOT Offline. i.e. if Online
+    // if NOT Logged In
+      // show login/register modal
+  console.log('auth', db.auth.currentUser)
+}
+
+checkIfOnline()
+/**/
+
 const getStartMatrix = startLines => {
   // 生成startLines
   const getLine = (min, max) => {
@@ -202,6 +219,7 @@ const states = {
     store.commit('reset', false)
     store.commit('lock', false)
     store.commit('clearLines', 0)
+    firebaseHighScore()
   },
 
   // 写入分数

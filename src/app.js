@@ -14,11 +14,6 @@ import { transform, lastRecord, speeds, i18n, lan } from './unit/const'
 import { visibilityChangeEvent, isFocus } from './unit/'
 import states from './control/states'
 
-/* Firebase coding */
-import db from './vuex/db.js'
-console.log('db', db)
-db.get('leaderboard').subscribe(x => console.log(x))
-
 export default {
   mounted() {
     this.render()
