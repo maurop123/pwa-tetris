@@ -25,12 +25,33 @@
     </div>
     <Keyboard :filling='filling' />
     <Guide/>
+    <!-- Modal -->
+    <div id="modal" class="app">
+      <label>Usersame</label>
+      <input type="text">
+    </div>
   </div>
 </template>
 
 <style lang="less">
 @import './app.less';
 @import './loader.less';
+
+#modal {
+  height: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+  label {
+    color: white;
+  }
+
+  input {
+    height: 50px;
+  }
+}
 </style>
 
 <script src="./app.js"></script>

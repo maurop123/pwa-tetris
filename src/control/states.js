@@ -15,13 +15,14 @@ import db from '../vuex/db.js'
 
 function firebaseHighScore() {
   db.get('leaderboard').subscribe(x => console.log(x))
+  store.commit('lock', true)
 }
 
 function checkIfOnline() {
   // if NOT Offline. i.e. if Online
     // if NOT Logged In
       // show login/register modal
-  console.log('auth', db.auth.currentUser)
+  // console.log('auth', db.auth.currentUser)
 }
 
 checkIfOnline()
@@ -210,6 +211,7 @@ const states = {
     store.commit('lock', true)
     store.commit('reset', true)
     store.commit('pause', false)
+    firebaseHighScore()
   },
 
   // 游戏结束动画完成
@@ -219,7 +221,6 @@ const states = {
     store.commit('reset', false)
     store.commit('lock', false)
     store.commit('clearLines', 0)
-    firebaseHighScore()
   },
 
   // 写入分数
